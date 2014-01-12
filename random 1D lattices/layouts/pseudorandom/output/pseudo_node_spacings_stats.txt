@@ -1,0 +1,55 @@
+--------------------------------------------------------
+Important statistics (Test Case #1)
+Node count: 20
+Maximum: 2.7123
+Upper Quartile: 1.5492
+Median: 0.46984
+Lower Quartile: 0.23873
+Minimum: 0.1363
+IQR: 1.3104
+Mean: 0.85795
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (Test Case #2)
+Node count: 20
+Maximum: 3.0957
+Upper Quartile: 1.9196
+Median: 0.40943
+Lower Quartile: 0.18387
+Minimum: 0.050495
+IQR: 1.7357
+Mean: 1.0207
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (Test Case #3)
+Node count: 20
+Maximum: 2.4141
+Upper Quartile: 1.4183
+Median: 0.54156
+Lower Quartile: 0.29025
+Minimum: 0.048946
+IQR: 1.1281
+Mean: 0.94879
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (Test Case #4)
+Node count: 20
+Maximum: 2.3196
+Upper Quartile: 1.1996
+Median: 0.80962
+Lower Quartile: 0.33891
+Minimum: 0.16493
+IQR: 0.86069
+Mean: 0.89358
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (Test Case #5)
+Node count: 20
+Maximum: 2.6753
+Upper Quartile: 1.2397
+Median: 0.64136
+Lower Quartile: 0.2167
+Minimum: 0.01787
+IQR: 1.023
+Mean: 0.99285
+--------------------------------------------------------
