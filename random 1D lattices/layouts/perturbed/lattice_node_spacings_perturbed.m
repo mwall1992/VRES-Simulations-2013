@@ -7,29 +7,50 @@ load('lattice_locations_perturbed.mat');
 %% Extract node spacing information
 nodeCount = max(size(node_positions_00x2E10));
 
+
+
 nodeSpacings = zeros(nodeCount-1, 12);
+
 nodeSpacings(:, 1) = node_positions_00x2E10(2:nodeCount) ...
     - node_positions_00x2E10(1:(nodeCount-1));
+
 nodeSpacings(:, 2) = node_positions_00x2E20(2:nodeCount) ...
     - node_positions_00x2E20(1:(nodeCount-1));
+
 nodeSpacings(:, 3) = node_positions_00x2E30(2:nodeCount) ...
     - node_positions_00x2E30(1:(nodeCount-1));
+
 nodeSpacings(:, 4) = node_positions_00x2E40(2:nodeCount) ...
     - node_positions_00x2E40(1:(nodeCount-1));
+
 nodeSpacings(:, 5) = node_positions_00x2E50(2:nodeCount) ...
     - node_positions_00x2E50(1:(nodeCount-1));
+
+node_positions_00x2E60 = sort(node_positions_00x2E60);
 nodeSpacings(:, 6) = node_positions_00x2E60(2:nodeCount) ...
     - node_positions_00x2E60(1:(nodeCount-1));
+
+node_positions_00x2E70 = sort(node_positions_00x2E70);
 nodeSpacings(:, 7) = node_positions_00x2E70(2:nodeCount) ...
     - node_positions_00x2E70(1:(nodeCount-1));
+
+node_positions_00x2E80 = sort(node_positions_00x2E80);
 nodeSpacings(:, 8) = node_positions_00x2E80(2:nodeCount) ...
     - node_positions_00x2E80(1:(nodeCount-1));
+
+node_positions_00x2E90 = sort(node_positions_00x2E90);
 nodeSpacings(:, 9) = node_positions_00x2E90(2:nodeCount) ...
     - node_positions_00x2E90(1:(nodeCount-1));
+
+node_positions_10x2E00 = sort(node_positions_10x2E00);
 nodeSpacings(:, 10) = node_positions_10x2E00(2:nodeCount) ...
     - node_positions_10x2E00(1:(nodeCount-1));
+
+node_positions_20x2E00 = sort(node_positions_20x2E00);
 nodeSpacings(:, 11) = node_positions_20x2E00(2:nodeCount) ...
     - node_positions_20x2E00(1:(nodeCount-1));
+
+node_positions_30x2E00 = sort(node_positions_30x2E00);
 nodeSpacings(:, 12) = node_positions_30x2E00(2:nodeCount) ...
     - node_positions_30x2E00(1:(nodeCount-1));
 

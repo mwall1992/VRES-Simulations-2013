@@ -23,3 +23,31 @@ Perturbed Lattice (max perturb delta = 0.5, 40 nodes, 100 realisations, 40 time 
 Average distance covered (per agent): 40.0783
 Expected distance covered (per agent): 40
 -------------------------------------------------------------
+
+
+
+-------------------------------------------------------------
+Perturbed Lattices (100 lattices, max perturb delta = 0.1, 40 nodes, 1 realisation, 40 time steps)
+Average distance covered (per agent): 39.9817
+Expected distance covered (per agent): 40
+-------------------------------------------------------------
+-------------------------------------------------------------
+Perturbed Lattices (100 lattices, max perturb delta = 0.2, 40 nodes, 1 realisation, 40 time steps)
+Average distance covered (per agent): 40.194
+Expected distance covered (per agent): 40
+-------------------------------------------------------------
+-------------------------------------------------------------
+Perturbed Lattices (100 lattices, max perturb delta = 0.3, 40 nodes, 1 realisation, 40 time steps)
+Average distance covered (per agent): 39.874
+Expected distance covered (per agent): 40
+-------------------------------------------------------------
+-------------------------------------------------------------
+Perturbed Lattices (100 lattices, max perturb delta = 0.4, 40 nodes, 1 realisation, 40 time steps)
+Average distance covered (per agent): 40.1069
+Expected distance covered (per agent): 40
+-------------------------------------------------------------
+-------------------------------------------------------------
+Perturbed Lattices (100 lattices, max perturb delta = 0.5, 40 nodes, 1 realisation, 40 time steps)
+Average distance covered (per agent): 40.1488
+Expected distance covered (per agent): 40
+-------------------------------------------------------------

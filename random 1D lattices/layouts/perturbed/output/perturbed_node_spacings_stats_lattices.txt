@@ -1,0 +1,100 @@
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.1)
+Maximum: 1.1983
+Upper Quartile: 1.0602
+Median: 1.0011
+Lower Quartile: 0.93894
+Minimum: 0.80386
+IQR: 0.12122
+Mean: 0.9999
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.2)
+Maximum: 1.3937
+Upper Quartile: 1.119
+Median: 0.99827
+Lower Quartile: 0.88039
+Minimum: 0.60195
+IQR: 0.2386
+Mean: 0.99984
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.3)
+Maximum: 1.5932
+Upper Quartile: 1.1831
+Median: 0.99799
+Lower Quartile: 0.82137
+Minimum: 0.41109
+IQR: 0.36172
+Mean: 0.99993
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.4)
+Maximum: 1.792
+Upper Quartile: 1.2376
+Median: 1.0002
+Lower Quartile: 0.76011
+Minimum: 0.21669
+IQR: 0.4775
+Mean: 1.0006
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.5)
+Maximum: 1.9695
+Upper Quartile: 1.2931
+Median: 0.99788
+Lower Quartile: 0.69884
+Minimum: 0.00925
+IQR: 0.59429
+Mean: 0.99995
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.1)
+Maximum: 1.1983
+Upper Quartile: 1.0602
+Median: 1.0011
+Lower Quartile: 0.93894
+Minimum: 0.80386
+IQR: 0.12122
+Mean: 0.9999
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.2)
+Maximum: 1.3937
+Upper Quartile: 1.119
+Median: 0.99827
+Lower Quartile: 0.88039
+Minimum: 0.60195
+IQR: 0.2386
+Mean: 0.99984
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.3)
+Maximum: 1.5932
+Upper Quartile: 1.1831
+Median: 0.99799
+Lower Quartile: 0.82137
+Minimum: 0.41109
+IQR: 0.36172
+Mean: 0.99993
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.4)
+Maximum: 1.792
+Upper Quartile: 1.2376
+Median: 1.0002
+Lower Quartile: 0.76011
+Minimum: 0.21669
+IQR: 0.4775
+Mean: 1.0006
+--------------------------------------------------------
+--------------------------------------------------------
+Important statistics (max perturb delta = 0.5)
+Maximum: 1.9695
+Upper Quartile: 1.2931
+Median: 0.99788
+Lower Quartile: 0.69884
+Minimum: 0.00925
+IQR: 0.59429
+Mean: 0.99995
+--------------------------------------------------------

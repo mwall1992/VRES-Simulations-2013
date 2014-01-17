@@ -1,3 +1,7 @@
 Pseudorandom Lattice (40 nodes, 100 realisations, 40 time steps)
 Average distance covered (per agent): 57.4833
 Expected distance covered (per agent): 40
+
+Pseudorandom Lattices (100 lattices, 40 nodes, 40 time steps, 1 realisation)
+Average distance covered (per agent): 38.7451
+Expected distance covered (per agent): 40

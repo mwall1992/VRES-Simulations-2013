@@ -24,6 +24,9 @@ figure;
 plot(densities_10_initial);
 hold on;
 
+plot(sol_200, 'r');
+hold on;
+
 plot(densities_10_200);
 hold on;
 
@@ -31,9 +34,6 @@ plot(densities_10_500);
 hold on;
 
 plot(densities_10_1000);
-hold on;
-
-plot(sol_200, 'r');
 hold on;
 
 plot(sol_500, 'r');
@@ -47,6 +47,7 @@ title('Average Agent Densities (c0 = 1, realisations = 10)', ...
 xlabel('x');
 ylabel('Concentration');
 ylim([0 1.1]);
+legend('Numeric', 'Analytic');
 
 % output relevant statistics
 tss_200 = 0;
@@ -72,6 +73,9 @@ figure;
 plot(densities_40_initial);
 hold on;
 
+plot(sol_200, 'r');
+hold on;
+
 plot(densities_40_200);
 hold on;
 
@@ -79,9 +83,6 @@ plot(densities_40_500);
 hold on;
 
 plot(densities_40_1000);
-hold on;
-
-plot(sol_200, 'r');
 hold on;
 
 plot(sol_500, 'r');
@@ -95,6 +96,7 @@ title('Average Agent Densities (c0 = 1, realisations = 40)', ...
 xlabel('x');
 ylabel('Concentration');
 ylim([0 1.1]);
+legend('Numeric', 'Analytic');
 
 % output relevant statistics
 tss_200 = 0;
@@ -119,6 +121,9 @@ figure;
 plot(densities_100_initial);
 hold on;
 
+plot(sol_200, 'r');
+hold on;
+
 plot(densities_100_200);
 hold on;
 
@@ -126,9 +131,6 @@ plot(densities_100_500);
 hold on;
 
 plot(densities_100_1000);
-hold on;
-
-plot(sol_200, 'r');
 hold on;
 
 plot(sol_500, 'r');
@@ -142,6 +144,7 @@ title('Average Agent Densities (c0 = 1, realisations = 100)', ...
 xlabel('x');
 ylabel('Concentration');
 ylim([0 1.1]);
+legend('Numeric', 'Analytic');
 
 % output relevant statistics
 tss_200 = 0;
@@ -172,6 +175,9 @@ figure;
 plot(p_densities_10_initial);
 hold on;
 
+plot(sol_200, 'r');
+hold on;
+
 plot(p_densities_10_200);
 hold on;
 
@@ -179,9 +185,6 @@ plot(p_densities_10_500);
 hold on;
 
 plot(p_densities_10_1000);
-hold on;
-
-plot(sol_200, 'r');
 hold on;
 
 plot(sol_500, 'r');
@@ -195,6 +198,7 @@ title('Average Agent Densities (c0 = 0.5, realisations = 10)', ...
 xlabel('x');
 ylabel('Concentration');
 ylim([0 0.6]);
+legend('Numeric', 'Analytic');
 
 % output relevant statistics
 tss_200 = 0;
@@ -219,6 +223,9 @@ figure;
 plot(p_densities_40_initial);
 hold on;
 
+plot(sol_200, 'r');
+hold on;
+
 plot(p_densities_40_200);
 hold on;
 
@@ -226,9 +233,6 @@ plot(p_densities_40_500);
 hold on;
 
 plot(p_densities_40_1000);
-hold on;
-
-plot(sol_200, 'r');
 hold on;
 
 plot(sol_500, 'r');
@@ -242,6 +246,7 @@ title('Average Agent Densities (c0 = 0.5, realisations = 40)', ...
 xlabel('x');
 ylabel('Concentration');
 ylim([0 0.6]);
+legend('Numeric', 'Analytic');
 
 % output relevant statistics
 tss_200 = 0;
@@ -266,6 +271,9 @@ figure;
 plot(p_densities_100_initial);
 hold on;
 
+plot(sol_200, 'r');
+hold on;
+
 plot(p_densities_100_200);
 hold on;
 
@@ -273,9 +281,6 @@ plot(p_densities_100_500);
 hold on;
 
 plot(p_densities_100_1000);
-hold on;
-
-plot(sol_200, 'r');
 hold on;
 
 plot(sol_500, 'r');
@@ -289,6 +294,7 @@ title('Average Agent Densities (c0 = 0.5, realisations = 100)', ...
 xlabel('x');
 ylabel('Concentration');
 ylim([0 0.6]);
+legend('Numeric', 'Analytic');
 
 % output relevant statistics
 tss_200 = 0;

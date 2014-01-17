@@ -1,0 +1,10 @@
+--------------------------------------------------------
+Important statistics (spacings from 100 lattices with 40 nodes each)
+Maximum: 2.9443
+Upper Quartile: 1.3533
+Median: 0.6916
+Lower Quartile: 0.28872
+Minimum: 3e-05
+IQR: 1.0646
+Mean: 0.97408
+--------------------------------------------------------
