@@ -1,0 +1,10 @@
+-------------------------------------------
+Linear least squares fit of S_t:
+Gradient: 1
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Gradient: 0.030896
+Y-intercept (forced): 0
+-------------------------------------------
