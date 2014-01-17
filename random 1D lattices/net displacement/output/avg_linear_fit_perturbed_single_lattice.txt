@@ -1,0 +1,70 @@
+-------------------------------------------
+Linear least squares fit of S_t:
+Max delta: 0.1
+Lattices: 1
+Gradient: 1.0036
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Max delta: 0.1
+Lattices: 1
+Gradient: -0.0057405
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+Max delta: 0.2
+Lattices: 1
+Gradient: 1.0361
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Max delta: 0.2
+Lattices: 1
+Gradient: -0.0019775
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+Max delta: 0.3
+Lattices: 1
+Gradient: 1.0521
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Max delta: 0.3
+Lattices: 1
+Gradient: 0.0016063
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+Max delta: 0.4
+Lattices: 1
+Gradient: 1.1064
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Max delta: 0.4
+Lattices: 1
+Gradient: -0.0022785
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+Max delta: 0.5
+Lattices: 1
+Gradient: 1.2224
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Max delta: 0.5
+Lattices: 1
+Gradient: -0.00088688
+Y-intercept (forced): 0
+-------------------------------------------
