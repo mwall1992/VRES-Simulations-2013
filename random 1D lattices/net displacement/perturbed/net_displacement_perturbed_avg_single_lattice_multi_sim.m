@@ -225,3 +225,39 @@ disp('Lattices: 1');
 disp(['Gradient: ' num2str(polynomial(1))]);
 disp('Y-intercept (forced): 0');
 disp('-------------------------------------------');
+
+%% Determine mean node spacing
+spacings = node_positions_0_10_0(2:end, 1) - node_positions_0_10_0(1:end-1, 1);
+avgSpacing = sum(spacings) / (max(size(node_positions_0_10_0)) - 1);
+disp('-------------------------------------------');
+disp('Lattice information (Max Delta = 0.1):');
+disp(['Mean node spacing: ' num2str(avgSpacing)]);
+disp('-------------------------------------------');
+
+spacings = node_positions_0_20_0(2:end, 1) - node_positions_0_20_0(1:end-1, 1);
+avgSpacing = sum(spacings) / (max(size(node_positions_0_20_0)) - 1);
+disp('-------------------------------------------');
+disp('Lattice information (Max Delta = 0.2):');
+disp(['Mean node spacing: ' num2str(avgSpacing)]);
+disp('-------------------------------------------');
+
+spacings = node_positions_0_30_0(2:end, 1) - node_positions_0_30_0(1:end-1, 1);
+avgSpacing = sum(spacings) / (max(size(node_positions_0_30_0)) - 1);
+disp('-------------------------------------------');
+disp('Lattice information (Max Delta = 0.3):');
+disp(['Mean node spacing: ' num2str(avgSpacing)]);
+disp('-------------------------------------------');
+
+spacings = node_positions_0_40_0(2:end, 1) - node_positions_0_40_0(1:end-1, 1);
+avgSpacing = sum(spacings) / (max(size(node_positions_0_40_0)) - 1);
+disp('-------------------------------------------');
+disp('Lattice information (Max Delta = 0.4):');
+disp(['Mean node spacing: ' num2str(avgSpacing)]);
+disp('-------------------------------------------');
+
+spacings = node_positions_0_50_0(2:end, 1) - node_positions_0_50_0(1:end-1, 1);
+avgSpacing = sum(spacings) / (max(size(node_positions_0_50_0)) - 1);
+disp('-------------------------------------------');
+disp('Lattice information (Max Delta = 0.5):');
+disp(['Mean node spacing: ' num2str(avgSpacing)]);
+disp('-------------------------------------------');

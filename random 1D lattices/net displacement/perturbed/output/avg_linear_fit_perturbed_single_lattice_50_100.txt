@@ -1,0 +1,20 @@
+-------------------------------------------
+Linear least squares fit of S_t:
+Max delta: 0.5
+Lattices: 1
+Realisations: 100
+Gradient: 1.1246
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Max delta: 0.5
+Lattices: 1
+Realisations: 100
+Gradient: -0.0020216
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Lattice information (Max Delta = 0.5):
+Mean node spacing: 0.99927
+-------------------------------------------

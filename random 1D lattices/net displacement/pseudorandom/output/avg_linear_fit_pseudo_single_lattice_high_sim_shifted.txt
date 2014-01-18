@@ -1,0 +1,18 @@
+-------------------------------------------
+Linear least squares fit of S_t:
+Lattices: 1
+Realisations: 2000
+Gradient: 2.4139
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+Lattices: 1
+Realisations: 2000
+Gradient: -0.010314
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Lattice information:
+Mean node spacing: 0.98858
+-------------------------------------------

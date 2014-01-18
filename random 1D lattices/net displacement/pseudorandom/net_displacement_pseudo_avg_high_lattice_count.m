@@ -3,39 +3,39 @@ close all;
 clc;
 
 %% Load lattice information
-load('net_displacement_multi_agents_pseudo_single_lattice.mat');
+load('net_displacement_pseudo_high_lattice_count.mat');
 
 %% Update lattice information
-realisations = 100;
+realisations = 1000;
 
 for i = 1:realisations
-    eval(['tracked_agent_pos_200_' num2str(i) ' = ' ...
-        'tracked_agent_pos_200_' num2str(i) ' + 1;']);
+    eval(['tracked_agent_pos_200_' num2str(i) '_1 = ' ...
+        'tracked_agent_pos_200_' num2str(i) '_1 + 1;']);
 end
 
 %% Determine net displacement measures (incl. squared displacement)
-timeSteps = max(size(tracked_agent_pos_200_1));
+timeSteps = max(size(tracked_agent_pos_200_1_1));
 
 totalDisplacements = zeros(timeSteps, 1);
 totalSquaredDisplacements = zeros(timeSteps, 1);
 
-for i = 1:realisations    
+for i = 1:realisations
     
     % determine net displacement
-    eval(['start = node_positions_rand_200_1' ...
-        '(tracked_agent_pos_200_' num2str(i) '(1, 2), 1);']);
-    eval(['displacements = node_positions_rand_200_1' ...
-        '(tracked_agent_pos_200_' num2str(i) '(:, 2), 1) - start;']);
+    eval(['start = node_positions_rand_200_' num2str(i) ...
+        '(tracked_agent_pos_200_' num2str(i) '_1(1, 2), 1);']);
+    eval(['displacements = node_positions_rand_200_' num2str(i) ...
+        '(tracked_agent_pos_200_' num2str(i) '_1(:, 2), 1) - start;']);
     totalDisplacements = totalDisplacements + displacements;
     
     squaredDisplacement = zeros(timeSteps, 1);
     
     % determine square displacement
     for j = 2:timeSteps
-        eval(['currentDisplacement = node_positions_rand_200_1' ...
-            '(tracked_agent_pos_200_' num2str(i) '(j, 2), 1)' ...
-            ' - node_positions_rand_200_1' ...
-            '(tracked_agent_pos_200_' num2str(i) '(j-1, 2), 1);']);
+        eval(['currentDisplacement = node_positions_rand_200_' num2str(i) ...
+            '(tracked_agent_pos_200_' num2str(i) '_1(j, 2), 1)' ...
+            ' - node_positions_rand_200_' num2str(i) ...
+            '(tracked_agent_pos_200_' num2str(i) '_1(j-1, 2), 1);']);
         squaredDisplacement(j:end) = squaredDisplacement(j:end) ...
             + currentDisplacement^2;
     end
@@ -57,7 +57,8 @@ plot(avgSquaredDisplacements, 'r');
 
 xlim([0 500]);
 xlabel('Time');
-title('Average Displacement of Tracked Agent (Pseudorandom Lattice, 100 Simulations)');
+title(['Average Displacement of Tracked Agent (' num2str(realisations)...
+    ' Pseudorandom Lattices)']);
 legend('X_t - X_0', 'S_t');
 
 %% Perform linear least squares regression
