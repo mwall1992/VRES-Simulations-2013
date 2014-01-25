@@ -20,7 +20,7 @@ u = sol(:, :, 1);
 % plot
 figure;
 plot(xmesh, u(1, :));
-ylim([0 1]); % there appears to be monotonicity issues (force plot size)
+%ylim([0 1]); % there appears to be monotonicity issues (force plot size)
 hold all; % automatically varies plot colours
 
 for i = 10:100:999

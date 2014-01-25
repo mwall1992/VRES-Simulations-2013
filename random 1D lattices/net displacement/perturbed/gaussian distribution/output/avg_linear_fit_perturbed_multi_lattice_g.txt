@@ -1,0 +1,84 @@
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.05
+Lattices: 100
+Gradient: 1.0037
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.05
+Lattices: 100
+Gradient: -0.0021721
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.1
+Lattices: 100
+Gradient: 1.02
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.1
+Lattices: 100
+Gradient: 0.0022487
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.2
+Lattices: 100
+Gradient: 1.0865
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.2
+Lattices: 100
+Gradient: 0.0030967
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.3
+Lattices: 100
+Gradient: 1.1808
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.3
+Lattices: 100
+Gradient: -0.00058962
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.4
+Lattices: 100
+Gradient: 1.2662
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.4
+Lattices: 100
+Gradient: -0.0013473
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.5
+Lattices: 100
+Gradient: 1.3552
+Y-intercept (forced): 0
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.5
+Lattices: 100
+Gradient: 0.00586
+Y-intercept (forced): 0
+-------------------------------------------
