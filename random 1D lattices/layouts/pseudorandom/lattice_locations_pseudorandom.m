@@ -19,7 +19,7 @@ title('Random Lattice Node Locations (20 nodes)');
 xlim([0 20]);
 xlabel('x');
 ylim([-0.1 0.1]);
-ylabel('y');
+set(gca, 'yticklabel', {});
 
 % plot second pseudorandom lattice
 subplot(5, 1, 2); 
@@ -33,7 +33,7 @@ title('Random Lattice Node Locations (20 nodes)');
 xlim([0 20]);
 xlabel('x');
 ylim([-0.1 0.1]);
-ylabel('y');
+set(gca, 'yticklabel', {});
 
 % plot third pseudorandom lattice
 subplot(5, 1, 3); 
@@ -47,7 +47,7 @@ title('Random Lattice Node Locations (20 nodes)');
 xlim([0 20]);
 xlabel('x');
 ylim([-0.1 0.1]);
-ylabel('y');
+set(gca, 'yticklabel', {});
 
 % plot fourth pseudorandom lattice
 subplot(5, 1, 4); 
@@ -61,7 +61,7 @@ title('Random Lattice Node Locations (20 nodes)');
 xlim([0 20]);
 xlabel('x');
 ylim([-0.1 0.1]);
-ylabel('y');
+set(gca, 'yticklabel', {});
 
 % plot fifth pseudorandom lattice
 subplot(5, 1, 5); 
@@ -75,7 +75,7 @@ title('Random Lattice Node Locations (20 nodes)');
 xlim([0 20]);
 xlabel('x');
 ylim([-0.1 0.1]);
-ylabel('y');
+set(gca, 'yticklabel', {});
 
 %% format output plot
 legend('Evenly Spaced Locations', 'Random Locations');
