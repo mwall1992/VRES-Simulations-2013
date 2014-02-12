@@ -1,0 +1,100 @@
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.1
+Lattices: 1
+Gradient: 1.0222
+Y-intercept (forced): 0
+R^2: 1
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.1
+Lattices: 1
+Gradient: 0.0042536
+Y-intercept (forced): 0
+R^2: 0.95491
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.2
+Lattices: 1
+Gradient: 1.0987
+Y-intercept (forced): 0
+R^2: 1
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.2
+Lattices: 1
+Gradient: -0.00243
+Y-intercept (forced): 0
+R^2: -1.179
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.3
+Lattices: 1
+Gradient: 1.1485
+Y-intercept (forced): 0
+R^2: 0.99994
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.3
+Lattices: 1
+Gradient: 0.0027779
+Y-intercept (forced): 0
+R^2: -2.3999
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.4
+Lattices: 1
+Gradient: 1.3929
+Y-intercept (forced): 0
+R^2: 0.99955
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.4
+Lattices: 1
+Gradient: 0.00068056
+Y-intercept (forced): 0
+R^2: 0.25514
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of S_t:
+std dev: 0.5
+Lattices: 1
+Gradient: 1.2932
+Y-intercept (forced): 0
+R^2: 0.99999
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.5
+Lattices: 1
+Gradient: 0.002095
+Y-intercept (forced): 0
+R^2: -0.031641
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.1):
+Mean node spacing: 0.99939
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.2):
+Mean node spacing: 1.0004
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.3):
+Mean node spacing: 1.0008
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.4):
+Mean node spacing: 1.0028
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.5):
+Mean node spacing: 1.0002
+-------------------------------------------
