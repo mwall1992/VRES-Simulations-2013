@@ -3,7 +3,7 @@ close all;
 clc;
 
 %% load simulation results
-load('perturbed_gaussian_sims_multi_agent.mat');
+load('perturbed_gaussian_sims_multi_agent_folks.mat');
 
 timeSteps = [ 200 500 1000 ];
 stddevs = [ 10 20 30 40 50 ];
@@ -54,7 +54,7 @@ for i = 1:length(stddevs)
     end
     
     %% format the plotted data
-    title(['Average Agent Densities (c0 = 1, std dev = 0.' num2str(stddevs(i)) ', realisations = 1000)'], ...
+    title(['Average Agent Densities (c0 = 1, std dev = 0.' num2str(stddevs(i)) ', realisations = 1000, Folks Model)'], ...
         'FontWeight', 'Bold');
     
     xlabel('x');
