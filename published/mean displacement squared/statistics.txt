@@ -1,0 +1,100 @@
+-------------------------------------------
+Linear least squares fit of (X_t - X_0)^2:
+std dev: 0.1
+Lattices: 1
+Gradient: 0.98523
+Y-intercept (forced): 0
+R^2: 0.99954
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.1
+Lattices: 1
+Gradient: 0.00083949
+Y-intercept (forced): 0
+R^2: -1.1236
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of (X_t - X_0)^2:
+std dev: 0.2
+Lattices: 1
+Gradient: 1.0186
+Y-intercept (forced): 0
+R^2: 0.99978
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.2
+Lattices: 1
+Gradient: -0.0025054
+Y-intercept (forced): 0
+R^2: 0.93276
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of (X_t - X_0)^2:
+std dev: 0.3
+Lattices: 1
+Gradient: 1.0234
+Y-intercept (forced): 0
+R^2: 0.99967
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.3
+Lattices: 1
+Gradient: -0.0011046
+Y-intercept (forced): 0
+R^2: 0.36816
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of (X_t - X_0)^2:
+std dev: 0.4
+Lattices: 1
+Gradient: 1.0424
+Y-intercept (forced): 0
+R^2: 0.99756
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.4
+Lattices: 1
+Gradient: 0.00069508
+Y-intercept (forced): 0
+R^2: 0.39376
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of (X_t - X_0)^2:
+std dev: 0.5
+Lattices: 1
+Gradient: 0.97634
+Y-intercept (forced): 0
+R^2: 0.99948
+-------------------------------------------
+-------------------------------------------
+Linear least squares fit of X_t - X_0:
+std dev: 0.5
+Lattices: 1
+Gradient: 0.0013985
+Y-intercept (forced): 0
+R^2: -0.44765
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.1):
+Mean node spacing: 1.0001
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.2):
+Mean node spacing: 0.99998
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.3):
+Mean node spacing: 1.0012
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.4):
+Mean node spacing: 0.99842
+-------------------------------------------
+-------------------------------------------
+Lattice information (std dev = 0.5):
+Mean node spacing: 1.0025
+-------------------------------------------
